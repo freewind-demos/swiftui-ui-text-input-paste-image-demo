@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		057881357AD714AA14A16C41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C68F9BE38BB6AF7178CE22E /* ContentView.swift */; };
+		0AAF61463F1BED52B5D9F962 /* ClipboardImageApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92364FA4CCD4A0159D9276C7 /* ClipboardImageApi.swift */; };
+		1C7A8E83CC8CD5DC4ED51A4B /* PasteImageEditorFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777FEAA614B0969EAF3ADE74 /* PasteImageEditorFeature.swift */; };
+		344DD0D972D8C51935671921 /* PasteImageEditorStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD46EDBF9EC44AA0CDDBF477 /* PasteImageEditorStore.swift */; };
+		46891541CF711F083D761160 /* swiftui_ui_text_input_paste_image_demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D478D5BC60124822C248B29 /* swiftui_ui_text_input_paste_image_demoApp.swift */; };
+		7C97046BC31FE92114CFDE6D /* PasteImageTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D55A936121A5E59B13D39DF /* PasteImageTextEditor.swift */; };
+		8F5DB8DC5666F5182B71B086 /* PasteEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA70D98F391C50BF5C71ED5 /* PasteEvent.swift */; };
+		D8ACB81678D567DEB3B29DDC /* PasteImageEditorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A95742FB0B06F078353E934 /* PasteImageEditorHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EA70D98F391C50BF5C71ED5 /* PasteEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteEvent.swift; sourceTree = "<group>"; };
+		2A95742FB0B06F078353E934 /* PasteImageEditorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteImageEditorHandler.swift; sourceTree = "<group>"; };
+		4D55A936121A5E59B13D39DF /* PasteImageTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteImageTextEditor.swift; sourceTree = "<group>"; };
+		5C68F9BE38BB6AF7178CE22E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		777FEAA614B0969EAF3ADE74 /* PasteImageEditorFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteImageEditorFeature.swift; sourceTree = "<group>"; };
+		7D478D5BC60124822C248B29 /* swiftui_ui_text_input_paste_image_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_ui_text_input_paste_image_demoApp.swift; sourceTree = "<group>"; };
+		92364FA4CCD4A0159D9276C7 /* ClipboardImageApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardImageApi.swift; sourceTree = "<group>"; };
+		BD46EDBF9EC44AA0CDDBF477 /* PasteImageEditorStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteImageEditorStore.swift; sourceTree = "<group>"; };
+		C99155ED473A8170E2BE5475 /* swiftui_ui_text_input_paste_image_demo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = swiftui_ui_text_input_paste_image_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		01207DE6C7691B4AD0FCCFA6 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				2A95742FB0B06F078353E934 /* PasteImageEditorHandler.swift */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		079F704209346E5263F285CB /* SystemApi */ = {
+			isa = PBXGroup;
+			children = (
+				92364FA4CCD4A0159D9276C7 /* ClipboardImageApi.swift */,
+			);
+			path = SystemApi;
+			sourceTree = "<group>";
+		};
+		15A231C3E465931AE71FD200 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C68F9BE38BB6AF7178CE22E /* ContentView.swift */,
+				4D55A936121A5E59B13D39DF /* PasteImageTextEditor.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		498AF9E809C1CE08060D33FE /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7D478D5BC60124822C248B29 /* swiftui_ui_text_input_paste_image_demoApp.swift */,
+				854B7D1D44DBE33FFB32D5A1 /* AppShell */,
+				01207DE6C7691B4AD0FCCFA6 /* Handler */,
+				BA078EE09E826A928B5B4756 /* Models */,
+				A9A05DF03744FCCCC2A07071 /* Store */,
+				079F704209346E5263F285CB /* SystemApi */,
+				15A231C3E465931AE71FD200 /* View */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		712A065748009A56F6BD97A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C99155ED473A8170E2BE5475 /* swiftui_ui_text_input_paste_image_demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		854B7D1D44DBE33FFB32D5A1 /* AppShell */ = {
+			isa = PBXGroup;
+			children = (
+				777FEAA614B0969EAF3ADE74 /* PasteImageEditorFeature.swift */,
+			);
+			path = AppShell;
+			sourceTree = "<group>";
+		};
+		A9A05DF03744FCCCC2A07071 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				BD46EDBF9EC44AA0CDDBF477 /* PasteImageEditorStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		BA078EE09E826A928B5B4756 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1EA70D98F391C50BF5C71ED5 /* PasteEvent.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CB0A0E365464D69BAE8E662A = {
+			isa = PBXGroup;
+			children = (
+				498AF9E809C1CE08060D33FE /* Sources */,
+				712A065748009A56F6BD97A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F6A67FF78AA730BD358D330 /* swiftui_ui_text_input_paste_image_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A8E630B61A901666BA974F6 /* Build configuration list for PBXNativeTarget "swiftui_ui_text_input_paste_image_demo" */;
+			buildPhases = (
+				4592C1CFF518F81CC624E7AB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swiftui_ui_text_input_paste_image_demo;
+			packageProductDependencies = (
+			);
+			productName = swiftui_ui_text_input_paste_image_demo;
+			productReference = C99155ED473A8170E2BE5475 /* swiftui_ui_text_input_paste_image_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34A84DF2E01E3B28224789A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 5A77A1F268535B0EBD987DF0 /* Build configuration list for PBXProject "swiftui-ui-text-input-paste-image-demo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CB0A0E365464D69BAE8E662A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 712A065748009A56F6BD97A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F6A67FF78AA730BD358D330 /* swiftui_ui_text_input_paste_image_demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4592C1CFF518F81CC624E7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAF61463F1BED52B5D9F962 /* ClipboardImageApi.swift in Sources */,
+				057881357AD714AA14A16C41 /* ContentView.swift in Sources */,
+				8F5DB8DC5666F5182B71B086 /* PasteEvent.swift in Sources */,
+				1C7A8E83CC8CD5DC4ED51A4B /* PasteImageEditorFeature.swift in Sources */,
+				D8ACB81678D567DEB3B29DDC /* PasteImageEditorHandler.swift in Sources */,
+				344DD0D972D8C51935671921 /* PasteImageEditorStore.swift in Sources */,
+				7C97046BC31FE92114CFDE6D /* PasteImageTextEditor.swift in Sources */,
+				46891541CF711F083D761160 /* swiftui_ui_text_input_paste_image_demoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		491728FBDBD1CA9D0828E8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		E56E6479A2D31C925CD9A0D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.freewind.demos.swiftui-ui-text-input-paste-image-demo";
+				PRODUCT_NAME = "swiftui-ui-text-input-paste-image-demo";
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F42165482FA3345C8CAFAD72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.freewind.demos.swiftui-ui-text-input-paste-image-demo";
+				PRODUCT_NAME = "swiftui-ui-text-input-paste-image-demo";
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFF4B38E9E449BC77E652361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A8E630B61A901666BA974F6 /* Build configuration list for PBXNativeTarget "swiftui_ui_text_input_paste_image_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E56E6479A2D31C925CD9A0D2 /* Debug */,
+				F42165482FA3345C8CAFAD72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5A77A1F268535B0EBD987DF0 /* Build configuration list for PBXProject "swiftui-ui-text-input-paste-image-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491728FBDBD1CA9D0828E8C2 /* Debug */,
+				FFF4B38E9E449BC77E652361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34A84DF2E01E3B28224789A4 /* Project object */;
+}
