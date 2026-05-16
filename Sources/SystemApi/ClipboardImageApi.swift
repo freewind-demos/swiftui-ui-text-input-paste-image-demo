@@ -1,11 +1,13 @@
-import UIKit
+import AppKit
 
 protocol ClipboardImageReading {
-    func firstImage() -> UIImage?
+    func firstImage() -> NSImage?
 }
 
 struct ClipboardImageApi: ClipboardImageReading {
-    func firstImage() -> UIImage? {
-        UIPasteboard.general.image
+    func firstImage() -> NSImage? {
+        let classes: [AnyClass] = [NSImage.self]
+        let items = NSPasteboard.general.readObjects(forClasses: classes, options: nil)
+        return items?.first as? NSImage
     }
 }

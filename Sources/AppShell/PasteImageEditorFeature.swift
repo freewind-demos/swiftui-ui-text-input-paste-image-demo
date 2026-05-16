@@ -1,6 +1,6 @@
 import Foundation
 import Observation
-import UIKit
+import AppKit
 
 @Observable
 @MainActor
@@ -17,7 +17,7 @@ final class PasteImageEditorFeature {
         store.document
     }
 
-    var fallbackImage: UIImage? {
+    var fallbackImage: NSImage? {
         store.fallbackImage
     }
 

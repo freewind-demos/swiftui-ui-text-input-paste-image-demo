@@ -1,13 +1,13 @@
 import Foundation
 import Observation
-import UIKit
+import AppKit
 
 @Observable
 @MainActor
 final class PasteImageEditorStore {
     var document = NSAttributedString(string: "")
-    var fallbackImage: UIImage?
-    var statusText = "长按输入框或按按钮，试试把剪贴板图片贴进去。"
+    var fallbackImage: NSImage?
+    var statusText = "点输入框后按 Cmd+V，或点按钮试试把剪贴板图片贴进去。"
     var pasteRequestID = 0
 
     func replaceDocument(_ value: NSAttributedString) {
@@ -23,7 +23,7 @@ final class PasteImageEditorStore {
         statusText = "图片已直接贴进输入框。"
     }
 
-    func showFallbackImage(_ image: UIImage) {
+    func showFallbackImage(_ image: NSImage) {
         fallbackImage = image
         statusText = "当前输入框没走成 inline，图片已回退到上方预览。"
     }

@@ -12,7 +12,7 @@ struct ContentView: View {
                     Text("输入框贴图测试")
                         .font(.title.bold())
 
-                    Text("直接在输入框里长按粘贴、外接键盘 `Cmd+V`，或点下面按钮触发。能 inline 就留在输入框；不行就回退到上方预览。")
+                    Text("点输入框后按 `Cmd+V`，或点下面按钮触发。能 inline 就留在输入框；不行就回退到上方预览。")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
 
@@ -21,7 +21,7 @@ struct ContentView: View {
                             Text("回退预览")
                                 .font(.headline)
 
-                            Image(uiImage: fallbackImage)
+                            Image(nsImage: fallbackImage)
                                 .resizable()
                                 .scaledToFit()
                                 .frame(maxWidth: .infinity)
@@ -30,7 +30,7 @@ struct ContentView: View {
                         }
                         .padding()
                         .frame(maxWidth: .infinity, alignment: .leading)
-                        .background(Color(.secondarySystemBackground))
+                        .background(Color(nsColor: .controlBackgroundColor))
                         .clipShape(RoundedRectangle(cornerRadius: 20))
                     }
 
@@ -43,7 +43,7 @@ struct ContentView: View {
                     .frame(minHeight: 260)
                     .overlay(
                         RoundedRectangle(cornerRadius: 20)
-                            .stroke(Color(.separator), lineWidth: 1)
+                            .stroke(Color(nsColor: .separatorColor), lineWidth: 1)
                     )
 
                     Text(feature.statusText)

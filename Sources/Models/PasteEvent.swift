@@ -1,8 +1,8 @@
 import Foundation
-import UIKit
+import AppKit
 
 enum PasteEvent {
-    case inlineImage(UIImage)
-    case fallbackImage(UIImage)
+    case inlineImage(NSImage)
+    case fallbackImage(NSImage)
     case noImage
 }
