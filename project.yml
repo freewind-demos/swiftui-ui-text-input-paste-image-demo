@@ -16,3 +16,11 @@ targets:
         PRODUCT_NAME: swiftui-ui-text-input-paste-image-demo
         PRODUCT_BUNDLE_IDENTIFIER: com.freewind.demos.swiftui-ui-text-input-paste-image-demo
         GENERATE_INFOPLIST_FILE: YES
+    productName: swiftui-ui-text-input-paste-image-demo
+schemes:
+  swiftui-ui-text-input-paste-image-demo:
+    build:
+      targets:
+        swiftui_ui_text_input_paste_image_demo: all
+    run:
+      config: Debug

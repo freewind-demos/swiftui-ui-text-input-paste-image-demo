@@ -24,9 +24,9 @@
 		5C68F9BE38BB6AF7178CE22E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		777FEAA614B0969EAF3ADE74 /* PasteImageEditorFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteImageEditorFeature.swift; sourceTree = "<group>"; };
 		7D478D5BC60124822C248B29 /* swiftui_ui_text_input_paste_image_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_ui_text_input_paste_image_demoApp.swift; sourceTree = "<group>"; };
+		92079EC64C3281AC060FCA62 /* swiftui-ui-text-input-paste-image-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-ui-text-input-paste-image-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92364FA4CCD4A0159D9276C7 /* ClipboardImageApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardImageApi.swift; sourceTree = "<group>"; };
 		BD46EDBF9EC44AA0CDDBF477 /* PasteImageEditorStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteImageEditorStore.swift; sourceTree = "<group>"; };
-		C99155ED473A8170E2BE5475 /* swiftui_ui_text_input_paste_image_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftui_ui_text_input_paste_image_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -72,7 +72,7 @@
 		712A065748009A56F6BD97A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C99155ED473A8170E2BE5475 /* swiftui_ui_text_input_paste_image_demo.app */,
+				92079EC64C3281AC060FCA62 /* swiftui-ui-text-input-paste-image-demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,7 +126,7 @@
 			packageProductDependencies = (
 			);
 			productName = swiftui_ui_text_input_paste_image_demo;
-			productReference = C99155ED473A8170E2BE5475 /* swiftui_ui_text_input_paste_image_demo.app */;
+			productReference = 92079EC64C3281AC060FCA62 /* swiftui-ui-text-input-paste-image-demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
